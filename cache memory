@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	float hits,misses;
+	float hit_ratio,miss_ratio;
+	 printf("enter no of hits:\t ");
+	 scanf("%d",&hits);
+	 printf("enetr the no of misses");
+	 scanf("%d",&misses);
+	  
+	  hit_ratio=hits/(hits+misses);
+	  printf("hit ratio is %f:\n ",hit_ratio);
+	   miss_ratio=misses/(hits+misses);
+	   printf("miss ratio is %f:",miss_ratio);
+}
